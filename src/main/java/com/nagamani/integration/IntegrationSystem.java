@@ -10,8 +10,7 @@ public interface IntegrationSystem {
 	public int createCustomer(Customer customer);
 
 	
-	public Contract createContract(Customer customer, int customerNumber, @QueryParam("type") int insuranceType,
-			@QueryParam("period") int contractPeriodInYears);
+	public Contract createContract(Customer customer, int customerNumber, int insuranceType, int contractPeriodInYears);
 
 	public int dispatchLetter(Contract contract);
 

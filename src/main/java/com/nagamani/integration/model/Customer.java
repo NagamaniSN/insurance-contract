@@ -1,6 +1,6 @@
 package com.nagamani.integration.model;
 
-//Dao class for Contract
+//Dao/POJO class for Customer
 //Can use lombak framework to remove setter and getter implementations
 public class Customer {
 
@@ -11,7 +11,6 @@ public class Customer {
 	private int phoneNumber;
 	
 	public Customer() {
-
 	}
 	
 	public Customer(String name, Long personalNumber, String emailId, String address, int phoneNumber) {
